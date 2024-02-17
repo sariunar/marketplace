@@ -1,0 +1,44 @@
+<!--1. Сделайте форму поиска по GIF-кам к открытому API [https://developers.giphy.com/](https://developers.giphy.com/) 
+    Используйте GET-запрос с параметрами в строке адреса. Страница должна выводить не более 5 картинок одновременно.-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="container__search">
+                <input type="text" id="search" name="search" class="input" />
+                <button id="container__search__btn">Искать</button>
+                <div class="container__cart icon-cart">
+                    <img src="./images/shop-cart.png" alt="" />
+                    <p class="cart">cart</p>
+                </div>
+            </div>
+            <div class="categories"></div>
+            <div id="results"></div>
+            <div class="movie2"></div>
+        </div>
+        <div class="cartTab">
+            <div class="cartTab__cart">
+                <img src="./images/shop-cart.png" alt="" />
+                <p class="cart">cart</p>
+            </div>
+            <div class="listCart">
+                <p>cart is empty :(</p>
+            </div>
+            <div class="total-price">
+                <p>total:</p>
+                <p class="total__price">0</p>
+            </div>
+            <button class="close">back to products</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
