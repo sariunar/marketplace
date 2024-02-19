@@ -1,2 +1,2 @@
 # marketplace
-Тестовое задание Red Collar
+Тестовое задание 
